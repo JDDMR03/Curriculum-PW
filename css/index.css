@@ -1,0 +1,133 @@
+html, body{
+  background-color:
+  scroll-behavior: smooth;
+  background-color: #1B2223;
+  font-family: Arial;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.parentMenu{
+  height:1080px;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.parentInfo{
+  height:1080px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.parentArticle{
+  height:1080px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.article{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#profile{
+  width:400px;
+}
+
+#icon{
+  width:20px;
+}
+
+#logo{
+  width: 120px;
+}
+
+#cert{
+  width: 500px;
+}
+
+button{
+  font-size: 20px;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  color: #F4FEFD;
+  font-size: 20px;
+}
+
+span{
+  font-size: 20px;
+  color: #0EF6CC;
+}
+
+p{
+  color: #F4FEFD;
+  font-size: 20px;
+}
+
+h1{
+  color: #0EF6CC;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2{
+  color: #0EF6CC;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3{
+  color: #0EF6CC;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a{
+  color: #0EF6CC;
+  font-size: 20px;
+}

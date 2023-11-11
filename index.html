@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--Page Configuration-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"> 
+  </head>
+
+  <!--Body by divs-->
+  <body>
+
+    <script src="js/index.js"></script>
+
+    <div class="main"> 
+      <div class="parentMenu"> 
+        <h1>Menu</h1>
+        <div class="menu">
+          <img id ="profile" src="images/profile.png"/>
+          <ul>
+            <li> <a href="#personal">Informacion Personal</a> </li>
+            <li> <a href="#profesional">Informacion Profesional</a> </li>
+            <li> <a href="#cursos">Cursos y Certificados</a> </li>
+            <li> <a href="#habilidades">Habilidades</a> </li>
+            <li> <a href="#empresas">Empresas para Practicas</a> </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="parentInfo">
+        <h1 id="personal">Informacion Personal</h2>
+        <div class="info">
+          <span>Nombre:</span> <img id="icon" src="images/admin.png"/> <p id="nombre">Juan de Dios Moreno Rivera</p>
+          <button onClick="copiarAlPortapapeles('nombre')"><img id="icon" src="images/copy.png"/></button>
+        </div>
+        <div class="info">
+          <span>Fecha de Nacimiento:</span> <img id="icon" src="images/cake.png"/> <p id="birthday"> 03 de Marzo del 2004</p>
+        </div>
+        <div class="info">
+          <span>Nacionalidad:</span> <img id="icon" src="images/mexico.png"/> <p id="nacionality">Mexicana</p>
+        </div>
+        <div class="info">
+          <span>Telefono Movil:</span> <img id="icon" src="images/mobil.png"/> <p id="number">2851157813</p>
+          <button onClick="copiarAlPortapapeles('number')"><img id="icon" src="images/copy.png"/></button>
+        </div>
+        <div class="info">
+          <span>Correo:</span> <img id="icon" src="images/mail.png"/> <p id="email">dios.morenor@uanl.edu.mx</p>
+          <button onClick="copiarAlPortapapeles('email')"><img id="icon" src="images/copy.png"/></button>
+        </div>
+      </div>
+
+      <div class="parentArticle">
+        <h1 id="profesional">Informacion Profesional</h1>
+        <div class="header">
+          <img id="logo" src="images/COVI.jpg"> 
+          <h2> Comite Olimpico Veracruzano de Informatica</h2>
+        </div>
+        <div class="article">
+          <h3>Lider de la delegacion de veracruz en la Olimpiada Mexicana de informatica</h3>
+          <p>Desde 2023 hasta ahora</p>
+          <ul>
+            <li>Supervisar los entrenamientos que reciben los seleccionados.</li>
+            <li>Disñar los examenes preselectivos, los examenes son basicamente de algoritmia y ciencias computacionales.</li>
+            <li>Administrar todos los procesos academicos relacionados con la delegacion durante la olimpiada.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="parentArticle">
+        <h1 id="cursos">Cursos y Certificados</h1>
+        <div class="header">
+          <img id="logo" src="images/COVI.jpg"> 
+          <h2>Oro absoluto en Olimpiada Veracruzana de Informatica</h2>
+        </div>
+        <div class="article">
+          <p>Algoritmia y Ciencias Computacionales en C++</p>
+        </div>
+        <div class="header">
+          <img id="logo" src="images/OMI.png"> 
+          <h2>Medalla de plata en Olimpiada Mexicana de Informatica</h2>
+        </div>
+        <div class="article">
+          <p>Algoritmia y Ciencias Computacionales en C++</p>
+          <img id="cert" src="images/dashboard omi.png">
+        </div>
+        <div class="header">
+          <img id="logo" src="images/Udemy.png"> 
+          <h2>The Complete React Native Course 2023 (En Proceso)</h2>
+        </div>
+        <div class="article">
+          <p>React-Native</p>
+          <img id="cert" src="images/react.png">
+        </div>
+      </div>
+
+      <div class="parentArticle">
+        <h1 id="habilidades">Habilidades</h1>
+        <ul>
+          <li> <p> Hola </p> </li>
+        </ul>
+      </div>
+
+      <div class="parentArticle">
+        <h1 id="empresas">Empresas para Aplicar</h1>
+        <div class="header">
+          <img id="logo" src="images/microsoft.png"> 
+          <h2>Microsoft</h2>
+        </div>
+        <div class="article">
+          <p>Algoritmia y Ciencias Computacionales en C++</p>
+        </div> 
+      </div>
+
+    </div>
+  </body>
+
+</html>
