@@ -26,6 +26,7 @@ html, body{
   justify-content: center;
   align-items: center;
   gap: 10px;
+  overflow-x: auto;
 }
 
 .parentInfo{
