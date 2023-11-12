@@ -9,14 +9,12 @@ html, body{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .parentMenu{
   height: 100%;
   width:100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
@@ -25,7 +23,6 @@ html, body{
 
 .menu{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -43,7 +40,6 @@ html, body{
 
 .info{
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
 }
@@ -60,7 +56,6 @@ html, body{
 
 .header{
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
@@ -68,7 +63,6 @@ html, body{
 
 .article{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 
