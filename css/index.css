@@ -46,6 +46,7 @@ html, body{
 .parentArticle{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: column;
   overflow-x: auto;
