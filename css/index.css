@@ -1,9 +1,7 @@
 html, body{
-  background-color:
   scroll-behavior: smooth;
   background-color: #1B2223;
   font-family: Arial;
-  overflow-x: auto;
 }
 
 .main{
