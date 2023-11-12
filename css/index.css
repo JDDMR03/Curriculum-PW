@@ -13,13 +13,14 @@ html, body{
 }
 
 .parentMenu{
-  height:1080px;
+  height: 100%;
   width:100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  overflow-x: auto;
 }
 
 .menu{
@@ -31,12 +32,13 @@ html, body{
 }
 
 .parentInfo{
-  height:1080px;
+  height: 100%;
   width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow-x: auto;
 }
 
 .info{
@@ -47,12 +49,13 @@ html, body{
 }
 
 .parentArticle{
-  height:1080px;
+  height: 100%;
   width:100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  overflow-x: auto;
 }
 
 .header{
