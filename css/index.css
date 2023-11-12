@@ -14,7 +14,6 @@ html, body{
 }
 
 .parentMenu{
-  height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -31,7 +30,6 @@ html, body{
 }
 
 .parentInfo{
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +44,6 @@ html, body{
 }
 
 .parentArticle{
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
