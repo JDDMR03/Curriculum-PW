@@ -9,6 +9,7 @@ html, body{
   justify-content: center;
   flex-direction: column;
   overflow-x: auto;
+  gap:500px;
 }
 
 .parentMenu{
