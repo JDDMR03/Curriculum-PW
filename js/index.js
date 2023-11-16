@@ -14,6 +14,10 @@ function copiarAlPortapapeles(id_elemento) {
   // Copia el texto seleccionado
   document.execCommand("copy");
 
+  // Muestra una alerta indicando que el texto se copió correctamente
+  alert("El texto se copió correctamente");
+
   // Elimina el campo de la página
   document.body.removeChild(aux);
 }
+

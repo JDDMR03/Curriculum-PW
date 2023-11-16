@@ -67,6 +67,14 @@ html, body{
   flex-direction: column;
 }
 
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #8D9091;
+}
+
 #profile{
   width:350px;
 }
